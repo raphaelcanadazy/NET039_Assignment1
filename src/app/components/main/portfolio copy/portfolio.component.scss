@@ -1,0 +1,20 @@
+.portfolio {
+    margin: 100px auto;
+    width: 80%;
+
+    h2 {
+        text-align: center;
+    }
+
+    .portfolio-images {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+            width: 300px;
+            height: 200px;
+        }
+    }
+}

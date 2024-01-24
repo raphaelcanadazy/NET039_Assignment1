@@ -1,0 +1,14 @@
+.about {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+
+    .self-info {
+        margin: 0 50px;
+    }   
+    .basic-info {
+        margin: 0 50px;
+    }  
+}

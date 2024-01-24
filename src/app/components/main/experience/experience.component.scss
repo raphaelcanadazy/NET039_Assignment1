@@ -1,0 +1,42 @@
+.experience {
+    margin: 100px auto;
+    width: 80%;
+
+    h2 {
+        text-align: center;
+    }
+
+    .work-entry {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+        .work-left {
+            height: 180px;
+            width: 370px;
+            background-color: green;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+
+
+            .work-time {
+                margin: auto;
+            }
+
+            .work-company {
+                margin: auto;
+                font-size: larger;
+            }
+        }
+
+        .work-right {
+            padding-left: 10px;
+            width: 70%;
+        }
+    }
+}
